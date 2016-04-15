@@ -1,6 +1,13 @@
 # The Justice Theme
 A new starter theme for WordPress based off of underscores.
 
+### Goals for the The Justice Theme
+
+* Use gulp.js to automate common theme checks.
+* Use Browser Sync to reload the page and give the average developer more features.
+* Use a JS templating platform to separate the front end and the backend.
+* Create a style guide and make it easy to integrate new elements onto the page.
+
 ### General Underscores Documentation
 
 I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
