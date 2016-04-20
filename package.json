@@ -1,0 +1,29 @@
+{
+  "name": "justice",
+  "version": "1.0.0",
+  "description": "This is for a new WordPress theme.",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpjustice/justice.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "David Parsons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpjustice/justice/issues"
+  },
+  "homepage": "https://github.com/dpjustice/justice#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0"
+  }
+}

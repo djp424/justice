@@ -1,9 +1,8 @@
-var autoprefixer = require('gulp-autoprefixer');
+var autoprefixer = require('gulp-autoprefixer'); // https://www.npmjs.com/package/gulp-autoprefixer/
 var browserSync = require('browser-sync').create(); // http://www.browsersync.io/docs/gulp/
 var concat = require('gulp-concat'); // https://www.npmjs.com/package/gulp-concat/
-var gulp = require('gulp');
-var minifyCss = require('gulp-minify-css');
-var sass = require('gulp-sass');
+var gulp = require('gulp'); // https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
+var sass = require('gulp-sass'); // https://www.npmjs.com/package/gulp-sass/
 
 gulp.task('js', function() {
 	return gulp.src(['./js/skip-link-focus-fix.js'])
@@ -22,7 +21,6 @@ gulp.task('sass', function () {
 			]
 		}))
 		.pipe(gulp.dest('dist'))
-		// .pipe(minifyCss())
 		// .pipe(gulp.dest('dist'))
 		.pipe(browserSync.stream());
 });
