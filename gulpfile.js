@@ -30,7 +30,7 @@ gulp.task('watch', function() {
 	browserSync.init({
 		files: ['{lib,templates}/**/*.php', '*.php'],
 			// proxy: config.devUrl,
-			proxy: 'localhost:7888',
+			proxy: 'localhost:8888',
 			snippetOptions: {
 				whitelist: ['/wp-admin/admin-ajax.php'],
 				blacklist: ['/wp-admin/**']
