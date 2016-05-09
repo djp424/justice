@@ -25,6 +25,12 @@
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'justice' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
+		<video class="justice-video-header" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Working-House_thumb.jpg" preload="auto" loop="true" muted="true" autoplay="">
+			<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Working-House.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+		</video>
+
+		<div class="justice-header-darken"></div>
+
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
